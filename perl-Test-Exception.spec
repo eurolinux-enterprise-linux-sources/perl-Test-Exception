@@ -1,6 +1,6 @@
 Name:           perl-Test-Exception
 Version:        0.32
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Library of test functions for exception based Perl code
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Test::Exception.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.32-2
+- Mass rebuild 2013-12-27
+
 * Mon Apr 29 2013 Paul Howarth <paul@city-fan.org> - 0.32-1
 - Update to 0.32
   - Fixed tests that broke due to diagnostic changes in Test::More 0.99
